@@ -22,16 +22,16 @@ export default function Hero() {
       />
 
       {/* Red accent bar left */}
-      <div className="absolute left-0 top-0 bottom-0 w-1 bg-red-600" />
+      <div className="absolute left-0 top-0 bottom-0 w-1 bg-teal-600" />
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 pt-20">
         <div className="max-w-4xl">
           {/* Tag */}
           <div className="flex items-center gap-3 mb-6">
-            <div className="h-px w-12 bg-red-600" />
+            <div className="h-px w-12 bg-teal-600" />
             <span
-              className="text-red-500 text-sm font-bold uppercase tracking-[0.3em]"
+              className="text-teal-500 text-sm font-bold uppercase tracking-[0.3em]"
               style={{ fontFamily: "var(--font-heading)" }}
             >
               Taller Automotriz
@@ -48,14 +48,14 @@ export default function Hero() {
             }}
           >
             PRINCESA{" "}
-            <span className="text-red-600">DEL</span>
+            <span className="text-teal-600">DEL</span>
             <br />
             COLOR
           </h1>
 
           {/* Divider */}
           <div className="flex items-center gap-4 mb-8">
-            <div className="h-1 w-24 bg-red-600" />
+            <div className="h-1 w-24 bg-teal-600" />
             <div className="h-px flex-1 max-w-xs bg-gray-700" />
           </div>
 
@@ -75,10 +75,10 @@ export default function Hero() {
           {/* CTA buttons */}
           <div className="flex flex-wrap gap-4">
             <a
-              href="https://wa.me/56900000000?text=Hola%2C%20quiero%20una%20cotizaci%C3%B3n"
+              href="https://wa.me/56971386400?text=Hola%2C%20quiero%20una%20cotizaci%C3%B3n"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center gap-3 bg-red-600 hover:bg-red-700 text-white font-bold uppercase tracking-widest px-8 py-4 text-lg transition-all duration-200 hover:scale-105"
+              className="flex items-center gap-3 bg-teal-600 hover:bg-teal-700 text-white font-bold uppercase tracking-widest px-8 py-4 text-lg transition-all duration-200 hover:scale-105"
               style={{ fontFamily: "var(--font-heading)" }}
             >
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -89,7 +89,7 @@ export default function Hero() {
 
             <a
               href="#servicios"
-              className="flex items-center gap-3 border-2 border-gray-600 hover:border-red-600 text-gray-300 hover:text-white font-bold uppercase tracking-widest px-8 py-4 text-lg transition-all duration-200"
+              className="flex items-center gap-3 border-2 border-gray-600 hover:border-teal-600 text-gray-300 hover:text-white font-bold uppercase tracking-widest px-8 py-4 text-lg transition-all duration-200"
               style={{ fontFamily: "var(--font-heading)" }}
             >
               Ver Servicios
@@ -105,7 +105,7 @@ export default function Hero() {
             ].map((s) => (
               <div key={s.label}>
                 <p
-                  className="text-4xl font-black text-red-600"
+                  className="text-4xl font-black text-teal-600"
                   style={{ fontFamily: "var(--font-heading)" }}
                 >
                   {s.num}

@@ -32,7 +32,7 @@ export default function Navbar() {
             style={{ fontFamily: "var(--font-heading)" }}
           >
             Princesa{" "}
-            <span className="text-red-600">del Color</span>
+            <span className="text-teal-600">del Color</span>
           </span>
         </a>
 
@@ -42,7 +42,7 @@ export default function Navbar() {
             <li key={l.href}>
               <a
                 href={l.href}
-                className="text-sm font-600 uppercase tracking-widest text-gray-300 hover:text-red-500 transition-colors duration-200"
+                className="text-sm font-600 uppercase tracking-widest text-gray-300 hover:text-teal-500 transition-colors duration-200"
                 style={{ fontFamily: "var(--font-heading)" }}
               >
                 {l.label}
@@ -53,10 +53,10 @@ export default function Navbar() {
 
         {/* CTA button */}
         <a
-          href="https://wa.me/56900000000?text=Hola%2C%20quiero%20una%20cotizaci%C3%B3n"
+          href="https://wa.me/56971386400?text=Hola%2C%20quiero%20una%20cotizaci%C3%B3n"
           target="_blank"
           rel="noopener noreferrer"
-          className="hidden md:flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white text-sm font-bold uppercase tracking-widest px-4 py-2 transition-colors duration-200"
+          className="hidden md:flex items-center gap-2 bg-teal-600 hover:bg-teal-700 text-white text-sm font-bold uppercase tracking-widest px-4 py-2 transition-colors duration-200"
           style={{ fontFamily: "var(--font-heading)" }}
         >
           <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
@@ -87,17 +87,17 @@ export default function Navbar() {
               key={l.href}
               href={l.href}
               onClick={() => setMenuOpen(false)}
-              className="text-lg font-bold uppercase tracking-widest text-gray-300 hover:text-red-500"
+              className="text-lg font-bold uppercase tracking-widest text-gray-300 hover:text-teal-500"
               style={{ fontFamily: "var(--font-heading)" }}
             >
               {l.label}
             </a>
           ))}
           <a
-            href="https://wa.me/56900000000?text=Hola%2C%20quiero%20una%20cotizaci%C3%B3n"
+            href="https://wa.me/56971386400?text=Hola%2C%20quiero%20una%20cotizaci%C3%B3n"
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-2 bg-red-600 text-white text-center font-bold uppercase tracking-widest py-3"
+            className="mt-2 bg-teal-600 text-white text-center font-bold uppercase tracking-widest py-3"
             style={{ fontFamily: "var(--font-heading)" }}
           >
             Cotizar por WhatsApp

@@ -9,7 +9,7 @@ export default function Footer() {
               className="text-white font-black text-2xl uppercase tracking-wider mb-3"
               style={{ fontFamily: "var(--font-heading)" }}
             >
-              Princesa <span className="text-red-600">del Color</span>
+              Princesa <span className="text-teal-600">del Color</span>
             </h3>
             <p className="text-gray-500 text-sm leading-relaxed" style={{ fontFamily: "var(--font-body)" }}>
               Especialistas en desabolladura y pintura automotriz.
@@ -20,7 +20,7 @@ export default function Footer() {
                 href="https://www.instagram.com/princesadelcolor/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-500 hover:text-red-500 transition-colors"
+                className="text-gray-500 hover:text-teal-500 transition-colors"
                 aria-label="Instagram"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -28,10 +28,10 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://wa.me/56900000000"
+                href="https://wa.me/56971386400"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-500 hover:text-red-500 transition-colors"
+                className="text-gray-500 hover:text-teal-500 transition-colors"
                 aria-label="WhatsApp"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -59,7 +59,7 @@ export default function Footer() {
                 <li key={l.href}>
                   <a
                     href={l.href}
-                    className="text-gray-500 hover:text-red-500 text-sm uppercase tracking-wider transition-colors"
+                    className="text-gray-500 hover:text-teal-500 text-sm uppercase tracking-wider transition-colors"
                     style={{ fontFamily: "var(--font-heading)" }}
                   >
                     {l.label}
@@ -79,7 +79,7 @@ export default function Footer() {
             </h4>
             <div className="flex flex-col gap-3">
               <a
-                href="https://wa.me/56900000000?text=Hola%2C%20quiero%20una%20cotizaci%C3%B3n"
+                href="https://wa.me/56971386400?text=Hola%2C%20quiero%20una%20cotizaci%C3%B3n"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-gray-500 hover:text-green-400 text-sm transition-colors"
@@ -94,7 +94,7 @@ export default function Footer() {
                 href="https://share.google/wxq2ubpVj7NffK1i2"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-2 text-gray-500 hover:text-red-400 text-sm transition-colors"
+                className="flex items-center gap-2 text-gray-500 hover:text-teal-400 text-sm transition-colors"
                 style={{ fontFamily: "var(--font-body)" }}
               >
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

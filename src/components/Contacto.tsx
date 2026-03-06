@@ -5,9 +5,9 @@ export default function Contacto() {
         {/* Header */}
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-4">
-            <div className="h-px w-12 bg-red-600" />
+            <div className="h-px w-12 bg-teal-600" />
             <span
-              className="text-red-500 text-sm font-bold uppercase tracking-[0.3em]"
+              className="text-teal-500 text-sm font-bold uppercase tracking-[0.3em]"
               style={{ fontFamily: "var(--font-heading)" }}
             >
               Hablemos
@@ -23,9 +23,9 @@ export default function Contacto() {
           >
             CONTÁCTANOS
             <br />
-            <span className="text-red-600">HOY</span>
+            <span className="text-teal-600">HOY</span>
           </h2>
-          <div className="h-1 w-20 bg-red-600 mt-4" />
+          <div className="h-1 w-20 bg-teal-600 mt-4" />
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
@@ -38,7 +38,7 @@ export default function Contacto() {
 
             {/* WhatsApp CTA */}
             <a
-              href="https://wa.me/56900000000?text=Hola%2C%20quiero%20consultar%20por%20una%20reparaci%C3%B3n"
+              href="https://wa.me/56971386400?text=Hola%2C%20quiero%20consultar%20por%20una%20reparaci%C3%B3n"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 bg-green-600 hover:bg-green-700 text-white p-6 transition-colors duration-200 group"
@@ -90,7 +90,7 @@ export default function Contacto() {
                     </svg>
                   ),
                   label: "Horario",
-                  value: "Lun–Vie 8:00–18:00\nSáb 9:00–13:00",
+                  value: "Lun–Vie 8:00–18:00\nSáb–Dom: Cerrado",
                 },
                 {
                   icon: (
@@ -113,7 +113,7 @@ export default function Contacto() {
                 },
               ].map((item, i) => (
                 <div key={i} className="bg-[#1a1a1a] border border-gray-800 p-5">
-                  <div className="flex items-center gap-3 text-red-500 mb-2">
+                  <div className="flex items-center gap-3 text-teal-500 mb-2">
                     {item.icon}
                     <span
                       className="text-xs font-bold uppercase tracking-widest text-gray-500"
@@ -127,7 +127,7 @@ export default function Contacto() {
                       href={item.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-white font-semibold hover:text-red-400 transition-colors whitespace-pre-line"
+                      className="text-white font-semibold hover:text-teal-400 transition-colors whitespace-pre-line"
                       style={{ fontFamily: "var(--font-body)" }}
                     >
                       {item.value}
@@ -164,7 +164,7 @@ export default function Contacto() {
                   "Asesoría con seguro incluida",
                 ].map((item, i) => (
                   <div key={i} className="flex items-center gap-3">
-                    <div className="w-1.5 h-1.5 rounded-full bg-red-600 flex-shrink-0" />
+                    <div className="w-1.5 h-1.5 rounded-full bg-teal-600 flex-shrink-0" />
                     <span className="text-gray-300 text-sm" style={{ fontFamily: "var(--font-body)" }}>
                       {item}
                     </span>
@@ -176,7 +176,7 @@ export default function Contacto() {
                 href="https://share.google/wxq2ubpVj7NffK1i2"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center gap-3 mt-8 bg-red-600 hover:bg-red-700 text-white font-bold uppercase tracking-widest px-6 py-4 transition-colors duration-200 justify-center"
+                className="flex items-center gap-3 mt-8 bg-teal-600 hover:bg-teal-700 text-white font-bold uppercase tracking-widest px-6 py-4 transition-colors duration-200 justify-center"
                 style={{ fontFamily: "var(--font-heading)" }}
               >
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -207,7 +207,7 @@ export default function Contacto() {
                 después de un choque. Lo recomiendo 100%."
               </blockquote>
               <p
-                className="text-red-500 text-sm font-bold mt-3"
+                className="text-teal-500 text-sm font-bold mt-3"
                 style={{ fontFamily: "var(--font-heading)" }}
               >
                 — Cliente verificado

@@ -51,9 +51,9 @@ export default function Galeria() {
         <div className="flex flex-col md:flex-row md:items-end md:justify-between mb-16 gap-6">
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="h-px w-12 bg-red-600" />
+              <div className="h-px w-12 bg-teal-600" />
               <span
-                className="text-red-500 text-sm font-bold uppercase tracking-[0.3em]"
+                className="text-teal-500 text-sm font-bold uppercase tracking-[0.3em]"
                 style={{ fontFamily: "var(--font-heading)" }}
               >
                 Trabajos realizados
@@ -69,9 +69,9 @@ export default function Galeria() {
             >
               NUESTRA
               <br />
-              <span className="text-red-600">GALERÍA</span>
+              <span className="text-teal-600">GALERÍA</span>
             </h2>
-            <div className="h-1 w-20 bg-red-600 mt-4" />
+            <div className="h-1 w-20 bg-teal-600 mt-4" />
           </div>
 
           <p className="text-gray-400 max-w-sm" style={{ fontFamily: "var(--font-body)" }}>
@@ -116,7 +116,7 @@ export default function Galeria() {
               {/* Overlay on hover */}
               <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">
                 <span
-                  className="text-red-500 text-xs font-bold uppercase tracking-widest mb-2"
+                  className="text-teal-500 text-xs font-bold uppercase tracking-widest mb-2"
                   style={{ fontFamily: "var(--font-heading)" }}
                 >
                   {t.categoria}
@@ -135,7 +135,7 @@ export default function Galeria() {
               {/* Category badge */}
               <div className="absolute top-4 left-4">
                 <span
-                  className="bg-red-600 text-white text-xs font-bold uppercase tracking-wider px-3 py-1"
+                  className="bg-teal-600 text-white text-xs font-bold uppercase tracking-wider px-3 py-1"
                   style={{ fontFamily: "var(--font-heading)" }}
                 >
                   {t.categoria}
@@ -154,7 +154,7 @@ export default function Galeria() {
             href="https://www.instagram.com/princesadelcolor/"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 border-2 border-gray-700 hover:border-red-600 text-gray-300 hover:text-white font-bold uppercase tracking-widest px-8 py-4 transition-all duration-200"
+            className="inline-flex items-center gap-3 border-2 border-gray-700 hover:border-teal-600 text-gray-300 hover:text-white font-bold uppercase tracking-widest px-8 py-4 transition-all duration-200"
             style={{ fontFamily: "var(--font-heading)" }}
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">

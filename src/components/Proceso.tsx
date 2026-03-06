@@ -28,14 +28,14 @@ export default function Proceso() {
         {/* Header */}
         <div className="mb-16 text-center">
           <div className="flex items-center justify-center gap-3 mb-4">
-            <div className="h-px w-12 bg-red-600" />
+            <div className="h-px w-12 bg-teal-600" />
             <span
-              className="text-red-500 text-sm font-bold uppercase tracking-[0.3em]"
+              className="text-teal-500 text-sm font-bold uppercase tracking-[0.3em]"
               style={{ fontFamily: "var(--font-heading)" }}
             >
               Cómo trabajamos
             </span>
-            <div className="h-px w-12 bg-red-600" />
+            <div className="h-px w-12 bg-teal-600" />
           </div>
           <h2
             className="text-white font-black uppercase leading-none"
@@ -45,7 +45,7 @@ export default function Proceso() {
               letterSpacing: "-0.02em",
             }}
           >
-            EL <span className="text-red-600">PROCESO</span>
+            EL <span className="text-teal-600">PROCESO</span>
           </h2>
         </div>
 
@@ -55,7 +55,7 @@ export default function Proceso() {
             <div key={i} className="bg-[#1a1a1a] p-8 relative">
               {/* Number */}
               <div
-                className="text-7xl font-black text-red-600 opacity-20 leading-none mb-4"
+                className="text-7xl font-black text-teal-600 opacity-20 leading-none mb-4"
                 style={{ fontFamily: "var(--font-heading)" }}
               >
                 {p.num}
@@ -63,7 +63,7 @@ export default function Proceso() {
 
               {/* Connector line */}
               {i < pasos.length - 1 && (
-                <div className="hidden lg:block absolute top-1/2 -right-px w-px h-8 bg-red-600 transform -translate-y-1/2 z-10" />
+                <div className="hidden lg:block absolute top-1/2 -right-px w-px h-8 bg-teal-600 transform -translate-y-1/2 z-10" />
               )}
 
               <h3

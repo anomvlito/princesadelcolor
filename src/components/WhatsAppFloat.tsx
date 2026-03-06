@@ -16,7 +16,7 @@ export default function WhatsAppFloat() {
       }`}
     >
       <a
-        href="https://wa.me/56900000000?text=Hola%2C%20quiero%20una%20cotizaci%C3%B3n"
+        href="https://wa.me/56971386400?text=Hola%2C%20quiero%20una%20cotizaci%C3%B3n"
         target="_blank"
         rel="noopener noreferrer"
         className="flex items-center gap-3 bg-green-500 hover:bg-green-600 text-white shadow-lg shadow-green-900/40 px-4 py-3 rounded-full transition-all duration-200 hover:scale-105 group"

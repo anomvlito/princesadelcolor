@@ -68,9 +68,9 @@ export default function Servicios() {
         {/* Header */}
         <div className="mb-16">
           <div className="flex items-center gap-3 mb-4">
-            <div className="h-px w-12 bg-red-600" />
+            <div className="h-px w-12 bg-teal-600" />
             <span
-              className="text-red-500 text-sm font-bold uppercase tracking-[0.3em]"
+              className="text-teal-500 text-sm font-bold uppercase tracking-[0.3em]"
               style={{ fontFamily: "var(--font-heading)" }}
             >
               Lo que hacemos
@@ -86,9 +86,9 @@ export default function Servicios() {
           >
             NUESTROS
             <br />
-            <span className="text-red-600">SERVICIOS</span>
+            <span className="text-teal-600">SERVICIOS</span>
           </h2>
-          <div className="h-1 w-20 bg-red-600 mt-4" />
+          <div className="h-1 w-20 bg-teal-600 mt-4" />
         </div>
 
         {/* Grid */}
@@ -99,7 +99,7 @@ export default function Servicios() {
               className="bg-[#1a1a1a] p-8 group hover:bg-[#222] transition-colors duration-300 relative overflow-hidden"
             >
               {/* Top accent */}
-              <div className="absolute top-0 left-0 right-0 h-0.5 bg-transparent group-hover:bg-red-600 transition-colors duration-300" />
+              <div className="absolute top-0 left-0 right-0 h-0.5 bg-transparent group-hover:bg-teal-600 transition-colors duration-300" />
 
               {/* Number */}
               <span
@@ -111,7 +111,7 @@ export default function Servicios() {
 
               <div className="relative">
                 {/* Icon */}
-                <div className="text-red-600 mb-4">{s.icon}</div>
+                <div className="text-teal-600 mb-4">{s.icon}</div>
 
                 {/* Title */}
                 <h3
@@ -128,7 +128,7 @@ export default function Servicios() {
 
                 {/* Detail tag */}
                 <span
-                  className="inline-block text-xs text-red-500 border border-red-900 px-2 py-1 uppercase tracking-widest"
+                  className="inline-block text-xs text-teal-500 border border-teal-900 px-2 py-1 uppercase tracking-widest"
                   style={{ fontFamily: "var(--font-heading)" }}
                 >
                   {s.detail}
@@ -144,10 +144,10 @@ export default function Servicios() {
             ¿Tienes un caso específico? Conversemos y te damos la solución.
           </p>
           <a
-            href="https://wa.me/56900000000?text=Hola%2C%20quiero%20consultar%20por%20un%20servicio"
+            href="https://wa.me/56971386400?text=Hola%2C%20quiero%20consultar%20por%20un%20servicio"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-3 bg-transparent border-2 border-red-600 text-red-500 hover:bg-red-600 hover:text-white font-bold uppercase tracking-widest px-8 py-4 transition-all duration-200"
+            className="inline-flex items-center gap-3 bg-transparent border-2 border-teal-600 text-teal-500 hover:bg-teal-600 hover:text-white font-bold uppercase tracking-widest px-8 py-4 transition-all duration-200"
             style={{ fontFamily: "var(--font-heading)" }}
           >
             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
