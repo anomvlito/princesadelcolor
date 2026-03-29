@@ -1,47 +1,5 @@
-const trabajos = [
-  {
-    id: 1,
-    titulo: "Reparación de Capó",
-    categoria: "Desabolladura + Pintura",
-    descripcion: "Abolladuras múltiples por granizo. Recuperación total sin reemplazar la pieza.",
-    color: "#1e293b",
-  },
-  {
-    id: 2,
-    titulo: "Lateral Completo",
-    categoria: "Pintura Parcial",
-    descripcion: "Igualación perfecta de color en lateral derecho tras raspado en estacionamiento.",
-    color: "#1e1a2e",
-  },
-  {
-    id: 3,
-    titulo: "Choque Frontal",
-    categoria: "Desabolladura + Preparación",
-    descripcion: "Reparación estructural de capó, parachoques y guardabarros delantero.",
-    color: "#1a2e1e",
-  },
-  {
-    id: 4,
-    titulo: "Pintura Total",
-    categoria: "Pintura Completa",
-    descripcion: "Restauración completa de la carrocería con cambio de color del cliente.",
-    color: "#2e1a1a",
-  },
-  {
-    id: 5,
-    titulo: "Puerta Trasera",
-    categoria: "Desabolladura",
-    descripcion: "Técnica PDR para restaurar sin pintura. Resultado invisible al ojo.",
-    color: "#1e2a2e",
-  },
-  {
-    id: 6,
-    titulo: "Pulido Premium",
-    categoria: "Detailing",
-    descripcion: "Eliminación de rayones finos y oxidación superficial. Brillo de concesionario.",
-    color: "#2e2a1a",
-  },
-];
+import Image from "next/image";
+import trabajos from "@/data/gallery.json";
 
 export default function Galeria() {
   return (
@@ -80,38 +38,20 @@ export default function Galeria() {
           </p>
         </div>
 
-        {/* Gallery placeholder grid */}
+        {/* Gallery grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {trabajos.map((t) => (
             <div
               key={t.id}
               className="group relative overflow-hidden aspect-[4/3] cursor-pointer"
-              style={{ background: t.color }}
             >
-              {/* Placeholder visual */}
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center">
-                  <svg
-                    className="w-16 h-16 text-gray-600 mx-auto mb-3"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1}
-                      d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-                    />
-                  </svg>
-                  <span
-                    className="text-gray-600 text-xs uppercase tracking-widest"
-                    style={{ fontFamily: "var(--font-heading)" }}
-                  >
-                    Foto de trabajo
-                  </span>
-                </div>
-              </div>
+              <Image
+                src={t.src}
+                alt={t.descripcion}
+                width={400}
+                height={300}
+                className="object-cover w-full h-full"
+              />
 
               {/* Overlay on hover */}
               <div className="absolute inset-0 bg-black/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-6">

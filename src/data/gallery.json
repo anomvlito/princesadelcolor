@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "titulo": "Chevrolet Sail",
+    "categoria": "Proceso de Masilla",
+    "descripcion": "Preparación de superficie, aplicando masilla para corregir imperfecciones.",
+    "src": "/imagenes/autos/Chevrolet sail/chevrolet-sail-proceso-masilla-preparacion-05.jpg"
+  },
+  {
+    "id": 2,
+    "titulo": "Citroen C-Elysee",
+    "categoria": "Entrega Final",
+    "descripcion": "Vehículo terminado y listo para ser entregado al cliente.",
+    "src": "/imagenes/autos/Citroen C-Elisse Eloy/citroen-c-elysee-entrega-cliente-posando-01.jpg"
+  },
+  {
+    "id": 3,
+    "titulo": "Ford Explorer",
+    "categoria": "Entrega Final",
+    "descripcion": "Explorer lista después de un trabajo de desabolladura y pintura.",
+    "src": "/imagenes/autos/Ford Explorer/ford-explorer-entrega-con-cliente-01.jpg"
+  },
+  {
+    "id": 4,
+    "titulo": "Lexus CT200h",
+    "categoria": "Proceso de Taller",
+    "descripcion": "Lexus en proceso de reparación y pintura en el taller.",
+    "src": "/imagenes/autos/Lexus CT200h/lexus-ct200h-proceso-01.jpg"
+  },
+  {
+    "id": 5,
+    "titulo": "Mercedes Benz GLA",
+    "categoria": "Entrega al Cliente",
+    "descripcion": "Cliente satisfecho recibiendo su Mercedes Benz GLA restaurado.",
+    "src": "/imagenes/autos/Mercedes Benz GLA/mercedes-benz-gla-entrega-con-cliente-01.jpg"
+  },
+  {
+    "id": 6,
+    "titulo": "MG RX5",
+    "categoria": "Acabado Final",
+    "descripcion": "El brillo final del MG RX5 después de un pulido detallado.",
+    "src": "/imagenes/autos/MG RX5/mg-rx5-entrega-sin-cliente-01.jpg"
+  }
+]
